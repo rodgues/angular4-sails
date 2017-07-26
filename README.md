@@ -67,12 +67,14 @@ http://localhost:1337/employee/create?fullname=a&emailid=xyz@abc.com&phonenumber
 
 ## to get the list
 http://localhost:1337/employee/
+
 http://localhost:1337/employee/?limit=1
+
 http://localhost:1337/employee/?limit=10&sort=emailid%20desc
 
 ## to update
 http://localhost:1337/employee/update/1?fullname=ciccio&emailid=abc@abc.com
 
-See this tutorial
+##For more information, see this tutorial
 
 https://www.youtube.com/watch?v=GK-tFvpIR7c
