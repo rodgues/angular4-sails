@@ -7,8 +7,6 @@ Both for those who want to use Sails, the most popular MVC framework for Node.js
 
 Open Command Prompt to Execute Commands
 
-c:
-
 cd /
 
 git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage
@@ -16,10 +14,6 @@ git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage
 cd SingleAppPage
 
 npm install
-
-npm install -g @angular/cli       ( I recommend @ )
-
-ng -v (to test)
 
 ng build --aot --prod
 
@@ -31,18 +25,7 @@ or
 
 node app.js
 
-If you receive the error: EADDRINUSE
-
-Is something else already running on port 1337 ?
-
-type this command for change port
-
-set PORT=8081
-
-And then try to run the server again
-
-sails lift
-
+If you have any errors, see the section "Typical errors" at the bottom of the page
 
 # Development
 ng serve -> run angular client http://localhost:4200
@@ -128,3 +111,21 @@ http://localhost:1337/employee/update/1?fullname=ciccio&emailid=abc@abc.com
 ## For more information, see this tutorial
 
 https://www.youtube.com/watch?v=GK-tFvpIR7c
+
+# Typical errors
+## ng command not found
+npm install -g @angular/cli
+
+( I recommend @ )
+
+ng -v
+
+## EADDRINUSE Is something else already running on port 1337 ?
+
+type this command for change port
+
+set PORT=8081
+
+And then try to run the server again
+
+sails lift
