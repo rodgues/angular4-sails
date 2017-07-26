@@ -5,7 +5,21 @@ Both for those who want to use Sails, the most popular MVC framework for Node.js
 
 # First installation (Production)
 
+Open Command Prompt to Execute Commands
+
+c:
+
+cd /
+
+git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage
+
+cd SingleAppPage
+
 npm install
+
+npm install -g @angular/cli       ( I recommend @ )
+
+ng -v (to test)
 
 ng build --aot --prod
 
@@ -17,6 +31,17 @@ or
 
 node app.js
 
+If you receive the error: EADDRINUSE
+
+Is something else already running on port 1337 ?
+
+type this command for change port
+
+set PORT=8081
+
+And then try to run the server again
+
+sails lift
 
 
 # Development
