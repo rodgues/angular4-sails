@@ -32,16 +32,6 @@ ng serve -> run angular client http://localhost:4200
 
 sails lift (optional for node js server) -> run server node http://localhost:1337/ + Grunt Task Automation + Database
 
-You must install
-
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related
-
-for solve the Allow-Control-Allow-Origin: * problem
-
-Or you can study this documentation
-
-http://sailsjs.com/documentation/reference/configuration/sails-config-cors
-
 ## To create a new angular component:
 ng generate component nomeComponente
 

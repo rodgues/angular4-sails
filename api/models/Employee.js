@@ -5,6 +5,7 @@
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
+ //You can see the model for Angular into /src/app/model/Employee.js
  module.exports = {
 
      autoCreatedAt: false,
