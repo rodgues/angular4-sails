@@ -5,7 +5,9 @@ Both for those who want to use Sails, the most popular MVC framework for Node.js
 
 # Angular 4 crud example using Node JS REST API
 
-<img width="384" src="https://github.com/Giancarlo1974/SailsAngular/tree/master/assets/images/demo.png" />
+<img width="384" src="https://raw.githubusercontent.com/Giancarlo1974/SailsAngular/master/assets/images/demo.png" />
+
+
 
 This skeleton 
 
