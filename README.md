@@ -3,46 +3,55 @@ This skeleton is suitable for both those who want to use only angular (2 or 4) +
 
 Both for those who want to use Sails, the most popular MVC framework for Node.js
 
+# Angular 4 crud example using Node JS REST API
+
+<img width="384" src="https://github.com/Giancarlo1974/SailsAngular/tree/master/assets/images/demo.png" />
+
+This skeleton 
+
 # First installation (Production)
 
 Open Command Prompt to Execute Commands
 
-cd /
+`cd /`
 
-git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage
+`git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage`
 
-cd SingleAppPage
+`cd SingleAppPage`
 
-npm install
+`npm install`
 
-ng build --aot --prod
+`ng build --aot --prod`
 
 It's compile angular in /dist folder
 
-node app.js (optional: If you want only Angular, skip this step)
+`node app.js` (optional: If you want only Angular, skip this step)
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
 
 # Development
-ng serve -> run angular client http://localhost:4200
+`ng serve` -> run angular client http://localhost:4200
 
-node app.js (optional for node js server) -> run server node http://localhost:1337/ + Grunt Task Automation + Database
+`node app.js` (optional for node js server) -> run server node http://localhost:1337/ + Grunt Task Automation + Database
 
 ## To create a new angular component:
-ng generate component nomeComponente
+`ng generate component nomeComponente`
 
 ## To create a new angular service:
-ng generate service nomeServizio
+`ng generate service nomeServizio`
 
 ## To create a new sails controller:
-sails generate controller nomeController
+`sails generate controller nomeController`
 
 # Bootstrap 4
 It's use scss ( .angular-cli.json file )
 
 "styles": [
+
   "../node_modules/bootstrap/scss/bootstrap.scss",
+
   "./xxxxxxxx.scss"
+
 ],
 
 See this bootstrap components
@@ -101,18 +110,18 @@ https://www.youtube.com/watch?v=GK-tFvpIR7c
 
 # Typical errors
 ## ng command not found
-npm install -g @angular/cli
+`npm install -g @angular/cli`
 
 ( I recommend @ )
 
-ng -v
+`ng -v`
 
 ## EADDRINUSE Is something else already running on port 1337 ?
 
 type this command for change port
 
-set PORT=8081
+`set PORT=8081`
 
 And then try to run the server again
 
-node app.js
+`node app.js`
