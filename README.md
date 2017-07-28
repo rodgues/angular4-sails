@@ -19,18 +19,14 @@ ng build --aot --prod
 
 It's compile angular in /dist folder
 
-sails lift (optional: If you want only Angular, skip this step)
-
-or
-
-node app.js
+node app.js (optional: If you want only Angular, skip this step)
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
 
 # Development
 ng serve -> run angular client http://localhost:4200
 
-sails lift (optional for node js server) -> run server node http://localhost:1337/ + Grunt Task Automation + Database
+node app.js (optional for node js server) -> run server node http://localhost:1337/ + Grunt Task Automation + Database
 
 ## To create a new angular component:
 ng generate component nomeComponente
@@ -38,7 +34,8 @@ ng generate component nomeComponente
 ## To create a new angular service:
 ng generate service nomeServizio
 
-
+## To create a new sails controller:
+sails generate controller nomeController
 
 # Bootstrap 4
 It's use scss ( .angular-cli.json file )
@@ -118,4 +115,4 @@ set PORT=8081
 
 And then try to run the server again
 
-sails lift
+node app.js
