@@ -29,7 +29,7 @@ It compiles the angular files in /dist folder.
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
 
-All done. Open your favorite browser to see the project. If you are using Node JS as Web Server, you must connect to the address: http://localhost:1337/
+All done. Open your favorite browser to see the demo. If you are using Node JS as Web Server, you must connect to the address: http://localhost:1337/
 
 
 # Development
