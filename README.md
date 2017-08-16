@@ -15,17 +15,15 @@ Open Command Prompt to Execute Commands
 
 `cd /`
 
-`git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage`
+`git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage` (It clone the project)
 
-`cd SingleAppPage`
+`cd SingleAppPage` (It enter in the project folder)
 
-`npm install`
+`npm install` (It install the libraries)
 
-`ng build --aot --prod`
+`ng build --aot --prod` (It compiles the angular files in /dist folder)
 
-It compiles the angular files in /dist folder.
-
-`node app.js` (optional: If you want only Angular, skip this step)
+`node app.js` (optional: If you want only Angular, skip this step. It launch the node web server)
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
 
