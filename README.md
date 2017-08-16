@@ -23,11 +23,14 @@ Open Command Prompt to Execute Commands
 
 `ng build --aot --prod`
 
-It's compile angular in /dist folder
+It compiles the angular files in /dist folder.
 
 `node app.js` (optional: If you want only Angular, skip this step)
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
+
+All done. Open your favorite browser to see the project. If you are using Node JS as Web Server, you must connect to the address: http://localhost:1337/
+
 
 # Development
 `ng serve` -> run angular client http://localhost:4200
