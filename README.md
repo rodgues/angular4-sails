@@ -13,6 +13,8 @@ This skeleton also contains an example of integration between Sails Api and Angu
 
 Open Command Prompt to Execute Commands
 
+If you have any errors, see the section "Typical errors" at the bottom of the page
+
 `cd /`
 
 `git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage` (It clones the project)
@@ -23,9 +25,7 @@ Open Command Prompt to Execute Commands
 
 `ng build --aot --prod` (It compiles the angular files in ./dist folder)
 
-`node app.js` (optional: If you want only Angular, skip this step. It launch the node web server)
-
-If you have any errors, see the section "Typical errors" at the bottom of the page
+`node app.js` (It launch the node web server. Optional: If you want only Angular, skip this step.)
 
 All done. Open your favorite browser to see the demo. If you are using Node JS as Web Server, you must connect to the address: http://localhost:1337/
 
