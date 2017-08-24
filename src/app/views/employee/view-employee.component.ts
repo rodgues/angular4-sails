@@ -13,8 +13,8 @@ import { Employee } from '../../models/employee';
 
 @Component({
   selector: 'app-view-employee',
-  templateUrl: './view-employee.component.html',
-  styleUrls: ['./view-employee.component.scss']
+  templateUrl: 'view-employee.component.html',
+  styleUrls: ['view-employee.component.css']
 })
 export class ViewEmployeeComponent implements OnInit, OnDestroy {
   public data: Employee[];

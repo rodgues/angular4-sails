@@ -8,7 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "worker.js",
+        "worker-basic.min.js",
         "assets",
         "favicon.ico"
       ],
@@ -19,13 +19,11 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
+      "serviceWorker": true,
       "styles": [
-        "../node_modules/bootstrap/scss/bootstrap.scss"
+        "style.css"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/tether/dist/js/tether.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -58,13 +56,9 @@
       "config": "./karma.conf.js"
     }
   },
-  "webpack": {
-    "development": {
-      "config": "config/webpack.dev.conf.js"
-    }
-  },
   "defaults": {
-    "styleExt": "scss",
-    "component": {}
+    "styleExt": "css",
+    "component": {
+    }
   }
 }

@@ -13,8 +13,9 @@ export class EmployeeService {
 
   constructor(private http: Http) { }
 
-  private url = 'http://localhost:1337/employee/';
-
+  //private url = 'http://localhost:1337/employee/';
+  private url = '/employee/';
+  
   // Fetch all existing comments
   getEmployees(): Observable<Employee[]> {
     console.log('i am the function getEmployees into service EmployeeService');

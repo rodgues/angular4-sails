@@ -11,13 +11,9 @@ $enable-shadows: true;
 //ho letto che di icone ci sarebbero anche queste
 //$fa-font-path: "../fonts";
 //@import "../font-awesome/scss/font-awesome.scss";
+
+
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
 */
 
-
-
-body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-  font-size: 14px !important;
-  line-height: 1.42857143 !important;
-  background-color: yellow !important;
-}
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css';

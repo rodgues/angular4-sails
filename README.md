@@ -15,7 +15,7 @@ Open Command Prompt to Execute Commands
 
 If you have any errors, see the section "Typical errors" at the bottom of the page
 
-`cd /`
+`cd /` ( on Linux `cd /root/` )
 
 `git clone https://github.com/Giancarlo1974/SailsAngular.git SingleAppPage` (It clones the project)
 
@@ -23,7 +23,7 @@ If you have any errors, see the section "Typical errors" at the bottom of the pa
 
 `npm install` (It installs the libraries)
 
-`ng build --aot --prod` (It compiles the angular files in ./dist folder)
+`ng build --aot --prod` (It compiles the angular files in ./dist folder For errors see bottom of the page)
 
 `node app.js` (It launch the node web server. Optional: If you want only Angular, skip this step.)
 
@@ -45,17 +45,19 @@ All done. Open your favorite browser to see the demo. If you are using Node JS a
 `sails generate controller nomeController`
 
 # Bootstrap 4
-It's use scss ( .angular-cli.json file )
+It's uses css ( .angular-cli.json file )
 
 "styles": [
 
-  "../node_modules/bootstrap/scss/bootstrap.scss",
+  "style.css"
 
-  "./xxxxxxxx.scss"
+  "./xxxxxxxx.css"
 
-],
+]
 
-See this bootstrap components
+and javascript see /src/index.html file
+
+See these bootstrap components
 
 http://valor-software.com/ngx-bootstrap/#/
 
