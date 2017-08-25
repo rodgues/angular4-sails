@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ViewEmployeeComponent } from './views/employee/view-employee.component';
 import { ViewMainComponent } from './views/main/view-main.component';
+import { ViewEmployeeComponent } from './views/employee/view-employee.component';
+import { ViewWsEmployeeComponent } from './views/ws-employee/view-ws-employee.component';
 
 /*
 You can create a new view using these DOS commands:
@@ -32,6 +33,11 @@ export const routes = [
     path: 'employee',
     data: ['Employee'],
     component: ViewEmployeeComponent
+  },
+  { //It associates the url /employee with the view ViewWsEmployeeComponent
+    path: 'wsemployee',
+    data: ['WS Employee'],
+    component: ViewWsEmployeeComponent
   },
   { //Redirect urls not found at root
     path: '**',

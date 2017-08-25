@@ -16,7 +16,7 @@ export class EmployeeService {
   //private url = 'http://localhost:1337/employee/';
   private url = '/employee/';
   
-  // Fetch all existing comments
+  // Fetch all existing employees
   getEmployees(): Observable<Employee[]> {
     console.log('i am the function getEmployees into service EmployeeService');
     // ...using get request

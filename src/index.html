@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-  <link rel='dns-prefetch' href='//code.jquery.com' />
   <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+  <link rel='dns-prefetch' href='//code.jquery.com' />
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 
   <link rel="manifest" href="assets/manifest.json">
@@ -21,7 +21,46 @@
 
 
 
-  <script>window.__theme = 'bs4';</script>
+  <script>
+  window.__theme = 'bs4';
+  //simula mancanza web socket
+/*
+  var WebSocket2 = WebSocket;
+
+        WebSocket = function(addy) {
+            console.log('WS: Trying to open.');
+            var ws;
+            if (!this.blocked) {
+                console.log('WS: Not blocked, allowing.');
+                ws = new WebSocket2(addy);
+                this.open_sockets.push(ws);
+                return ws;
+            } else {
+                console.log('WS: Blocked.');
+            }
+        };
+
+        WebSocket.toggle = function() {
+            WebSocket.prototype.blocked = !WebSocket.prototype.blocked;
+            var sockets = WebSocket.prototype.open_sockets;
+            if (WebSocket.prototype.blocked) {
+                console.log('WS: Blocking. Removing Old Sockets.');
+                sockets.forEach(function(socket, index, sockets) {
+                    console.log("WS: Closing -", index);
+                    socket.close();
+                });
+                WebSocket.prototype.open_sockets = [];
+                console.log("WS: Sockets left open -", WebSocket.prototype.open_sockets.length);
+            } else {
+                console.log("WS: Unblocking");
+            }
+        };
+
+        WebSocket.prototype.open_sockets = [];
+        WebSocket.prototype.blocked = true;
+*/
+  </script>
+
 <!-- you can also remove these lines and modify /.angular-cli.json file add into scripts
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
@@ -31,10 +70,14 @@
 -->
   <script src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script async src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 
+  <!-- add the io library for sais web socket -->
+  <script src="/assets/js/dependencies/sails.io.js"
+    autoConnect="false"
+    environment="production">
+  </script>
 
-  
 </body>
 </html>

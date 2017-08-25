@@ -26,6 +26,15 @@ It's compile angular in /dist folder
 
 
 
+## To create a new angular component:
+`ng generate component nomeComponente`
+
+## To create a new angular service:
+`ng generate service nomeServizio`
+
+## To create a new sails controller:
+`sails generate controller nomeController`
+
 
 # Sails JS, the most popular MVC framework for Node.js
 

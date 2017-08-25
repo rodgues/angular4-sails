@@ -34,5 +34,8 @@ export class ViewMainComponent implements OnInit {
     this.router.navigate(['/employee']);
   }
 
+  goWsEmployeeDemo() {
+    this.router.navigate(['/wsemployee']);
+  }
 
 }

@@ -8,7 +8,6 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "worker-basic.min.js",
         "assets",
         "favicon.ico"
       ],
