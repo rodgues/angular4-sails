@@ -115,9 +115,19 @@ https://www.youtube.com/watch?v=GK-tFvpIR7c
 ## ng command not found
 `npm install -g @angular/cli`
 
-( I recommend @ )
+( I recommend @  it's install angular 4)
 
 `ng -v`
+
+## Angular doesn't compile the project
+
+On Linux you may encounter some problems. Try uninstalling version 4 and install the 2
+
+`sudo npm uninstall -g @angular/cli`
+
+`npm cache clean`
+
+`sudo npm install -g angular/cli`
 
 ## EADDRINUSE Is something else already running on port 1337 ?
 

@@ -3,8 +3,6 @@ You can found source files into /src
 
 models => /src/app/models
 
-controllers => /src/app/controllers
-
 services => /src/app/services
 
 views => /src/app/views
@@ -47,6 +45,19 @@ controllers => /api/controllers
 You must run the dos command:
 
 `node app.js`
+
+## To create a new sails component:
+`sails generate controller <controller name>`
+
+## To create a new sails model:
+`sails generate model <foo> [attribute1:type1, attribute2:type2 ... ]`
+
+## To create a new sails api:
+
+`sails generate api <foo>`
+
+Generate api/models/Foo.js and api/controllers/FooController.js
+
 
 
 # TypeScript
