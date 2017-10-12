@@ -1,0 +1,17 @@
+{
+  "static": {
+    "urls": {
+      "/polyfills.900aaf0d520c2ec873a7.bundle.js": "1e4779eb00ffdcce4c9f4f6f7ca69d60d101b2ab",
+      "/main.1c6f1e6e86058679537e.bundle.js": "6971f0881bb3f65618b1b2df0af6a3898504e920",
+      "/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
+      "/vendor.108e0f476c681c0964a7.bundle.js": "46d735bf18fedbe01ebad4792535abcf0519e137",
+      "/inline.1ba76894df7ce117f622.bundle.js": "e2205e4a9a3913caf3a21e5f1784997c7b8b11ba",
+      "/styles.3946cabbe2285bd5dd96.bundle.css": "0a33718a2f2c065cd39f75cfd9eddfc60c081029",
+      "/assets/manifest.json": "2e3ae50ac4ddaec732b8a6312bf2436eb55e16d3",
+      "/assets/js/dependencies/sails.io.js": "ca55802e5962581108ce3ad2bdc32d5966e4a199",
+      "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+      "/index.html": "d09ea517c4e082d0d8268e99051497c048824417"
+    },
+    "_generatedFromWebpack": true
+  }
+}

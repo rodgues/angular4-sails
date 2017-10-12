@@ -14,14 +14,12 @@
 
 
 import express = require('express');
-import { Model } from 'Sails';
+import { Model } from 'sails';
 
 declare var sails: any;
 var EmployeeModel: Sails.Model = sails.models.employee;
 
 module.exports = {
-
-
 
     add: function (req: express.Request, res: express.Response, next: Function) {
 
